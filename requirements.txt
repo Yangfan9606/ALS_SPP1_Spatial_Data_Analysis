@@ -1,0 +1,9 @@
+# Python >= 3.10. Pin versions to those reported in the paper's Methods if needed.
+scanpy
+anndata
+numpy
+scipy
+pandas
+matplotlib
+seaborn
+pillow

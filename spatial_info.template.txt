@@ -1,0 +1,10 @@
+Folder	ExternalSampleId	Chip	ID	Number of cluster	Grey	White
+<Chip>-<ExternalSampleId>-<ID>_loupe	<ExternalSampleId>	<Chip>	<ID>	10	3,5	1,2,7
+# Tab-separated. One row per section. Columns used by the pipeline:
+#   Folder            sub-directory under --data-dir holding that section's matrix
+#                     (built as "<Chip>-<ExternalSampleId>-<ID>_loupe")
+#   Number of cluster which Loupe clustering column to read (e.g. graph-based / kmeans-<n>)
+#   Grey / White      comma-separated cluster IDs assigned to grey / white matter
+# Generate it from a private metadata_info.txt (NOT distributed) with:
+#   cat metadata_info.txt | awk -F "\t" '{print $2"-"$1"-"$3"_loupe\t"$0}' \
+#       | sed "s/Chip-ExternalSampleId-ID_loupe/Folder/" > spatial_info.txt
