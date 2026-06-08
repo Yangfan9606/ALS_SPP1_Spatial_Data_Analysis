@@ -1,0 +1,5 @@
+Neuron	NEFM,SNAP25
+Oligo	MBP,PLP1
+Homeostatic_microglia	CX3CR1,CSF1R,P2RY12
+Core_DAMs	TREM2,APOE,TYROBP
+SPP1_CD44_module	SPP1,CD44
