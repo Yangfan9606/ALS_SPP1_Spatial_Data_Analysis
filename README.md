@@ -3,7 +3,7 @@ Scripts of spatial data analysis for ALS-SPP1 project
 
 # Spinal-cord Visium — grey/white matter marker analysis
 
-Python pipeline for the spatial transcriptomics (10x Visium) analysis in **\<paper title / citation\>**. For each tissue section it assigns spots to grey vs white matter (from Loupe clusters), draws the grey/white boundary, computes marker-set module / co-expression scores, and produces the spatial maps and grey-vs-white statistical figures.
+Python pipeline for the spatial transcriptomics (10x Visium) analysis in **Microglial heterogeneity and SPP1‑mediated glial crosstalk underlie ALS neuroinflammation**. For each tissue section it assigns spots to grey vs white matter (from Loupe clusters), draws the grey/white boundary, computes marker-set module / co-expression scores, and produces the spatial maps and grey-vs-white statistical figures.
 
 ## Input data
 
@@ -72,8 +72,7 @@ python plot_spatial_genes.py   --data-dir matrix --info spatial_info.txt --gene 
 
 ## Citation / data availability
 
-Please cite **\<paper / DOI\>**. Processed and raw data are available from the
-authors on request \<contact\>.
+Please cite **Microglial heterogeneity and SPP1-mediated glial crosstalk underlie ALS neuroinflammation**. Processed and raw data are available from the authors on request: Jianing Lin (jianing.lin@ki.se, first author) and Sebastian Lewandowski (sebastian.lewandowski@ki.se, corresponding author), Karolinska Institutet.
 
 ## License
 
